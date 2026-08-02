@@ -378,6 +378,7 @@ nav.main-nav a:hover::after,nav.main-nav a.active::after{width:100%}
 .clock-cell{flex:1 1 200px;padding:18px 22px;background:rgba(0,0,0,.3)}
 .clock-cell+.clock-cell{border-left:1px solid var(--line)}
 .clock-cell .city{font-family:var(--mono);font-size:.62rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted-lt);margin-bottom:6px}
+.clock-cell .city-flag{display:inline-block;width:18px;height:13px;object-fit:cover;vertical-align:middle;margin-right:8px;border-radius:1px;box-shadow:0 0 0 1px rgba(0,0,0,.25)}
 .clock-cell .time{font-family:var(--mono);font-weight:700;font-size:1.5rem;color:var(--chalk);font-variant-numeric:tabular-nums}
 .clock-cell.here .time{color:var(--gold)}
 .clock-cell .note{font-size:.78rem;color:var(--muted-lt);margin:4px 0 0}
