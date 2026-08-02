@@ -17,6 +17,9 @@
   }
   .tifo-card{opacity:1 !important;transform:none !important}
   .ticker-track{animation:none !important}
+  .flyer-name{transition:none !important;transform:none !important;opacity:1 !important}
+  .flyer-name.is-leaving{display:none !important}
+  .flyer-dot{animation:none !important}
 }
 
 /* ==========================================================================

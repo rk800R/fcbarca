@@ -1,8 +1,8 @@
 {
   "lastSync": "2026-08-02T13:40:39.648Z",
-  "nextSync": "2026-08-03T01:40:39.650Z",
-  "apiStatus": "ok",
-  "lastError": null,
+  "nextSync": "2026-08-03T08:29:33.805Z",
+  "apiStatus": "error",
+  "lastError": "FOOTBALL_DATA_API_KEY is not set in .env — cannot fetch fixtures from Football-Data.org.",
   "matches": [
     {
       "id": 564642,
