@@ -619,6 +619,29 @@ textarea{min-height:130px;resize:vertical}
 .statutes-body p,.statutes-body ul,.statutes-body ol,.statutes-body li{color:rgba(255,255,255,.88)}
 .statutes-body li{margin-bottom:8px}
 
+/* Tables inside statutes/privacy body */
+.statutes-body .table-wrap{overflow-x:auto;margin:18px 0 26px;-webkit-overflow-scrolling:touch}
+.statutes-body table{
+  width:100%;border-collapse:collapse;
+  font-family:var(--body);font-size:.92rem;
+  background:rgba(0,0,0,.18);border:1px solid rgba(255,255,255,.14);border-radius:3px;overflow:hidden;
+}
+.statutes-body table thead th{
+  font-family:var(--mono);font-weight:700;font-size:.66rem;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--gold);
+  text-align:left;padding:14px 16px;
+  background:rgba(0,0,0,.32);border-bottom:1px solid rgba(237,187,0,.3);
+  white-space:nowrap;
+}
+.statutes-body table tbody td{
+  padding:13px 16px;color:rgba(255,255,255,.86);
+  border-bottom:1px solid rgba(255,255,255,.1);vertical-align:top;line-height:1.5;
+}
+.statutes-body table tbody tr:last-child td{border-bottom:none}
+.statutes-body table tbody tr:nth-child(even){background:rgba(0,0,0,.12)}
+.statutes-body table a{color:var(--gold);text-decoration:underline;text-underline-offset:3px}
+.statutes-body table a:hover{color:var(--gold-lt)}
+
 /* ==========================================================================
    FOOTER
    ========================================================================== */
